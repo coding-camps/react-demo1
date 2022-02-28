@@ -1,16 +1,14 @@
 # Hello world~!
 ## h2
 ### h3
-
+#### Table
 | h1 | h2 |
 | --- | --- |
 | a | b |
 
-mathjax: $e=mc^2$  
-mathjax: $$e=m^2$$
-
-mathjax: $ e=mc^2 $  
-mathjax: $$ e=m^2 $$
+#### mathjax latex formula
+inline: $e=mc^2$  
+block: $$e=m^2$$
 
 #### unordered list
 - list item 1
@@ -19,17 +17,14 @@ mathjax: $$ e=m^2 $$
 
 #### ordered list 1
 1. item 1
-1. item 2
-1. item 3
----
-<img src="fx/fx01.svg">
----
-<svg xmlns="http://www.w3.org/2000/svg" version="1.1">
-  <text x="0" y="150" fill="lightblue">I love SVG</text>
-</svg>
+2. item 2
+3. item 3
 
-#### ordered list 2
-1. item a
-2. item b
-3. item c
 
+<img src="/api/app1/markdown-ref-img.svg">
+---    
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="400" width="450">
+  <text x="0" y="150">I love SVG</text>
+  <text x="0" y="120"> $ e=mc^2 $</text>
+</svg>  
+---
