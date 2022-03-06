@@ -20,6 +20,16 @@ block: $$e=m^2$$
 1. item 2
 1. item 3
 
+### code block(java)
+```java
+public class Hello {
+    public static void main(String[] args) {
+        System.out.println("Hello world!");
+    }
+}
+```
+
+
 
 <img src="/api/app1/markdown-ref-img.svg">
 ---    
